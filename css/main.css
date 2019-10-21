@@ -136,12 +136,12 @@ h4 {
 }
  
 p {
-font-size: .875em;
-line-height: 1.285;
+  font-size: .875em;
+l ine-height: 1.285;
 }
  
 img {
- 
+  width: 100%;
 }
  
 figure {
