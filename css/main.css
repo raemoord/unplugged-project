@@ -670,6 +670,10 @@ footer .copyright {
     align-items: center;
 }
 
+.map figure {
+  padding-bottom: 45%;
+}
+
 .mission-content p {
     width: 40%;
 }
@@ -776,6 +780,10 @@ aside .content-wrapper .form {
   .contact-section .content-wrapper h2 {
     width: 100%;
     font-size: 3em;
+  }
+
+  .map figure {
+    padding-bottom: 38%;
   }
  
   .contact-section .content-wrapper h2 {
