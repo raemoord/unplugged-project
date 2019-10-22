@@ -105,8 +105,8 @@ html {
 }
  
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
   color: #e2e3ed;
 }
@@ -114,6 +114,8 @@ body {
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -125,6 +127,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
  
 h3, 
@@ -207,11 +210,15 @@ address {
   }
 
   header nav ul {
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    width: 100%;
   }
 
+  header nav ul li {
+    font-size: 1.125em;
+  }
+  
   footer {
     text-align: center;
     flex-direction:  column;
@@ -337,6 +344,7 @@ address {
   }
 
   .features p {
+    text-align: center;
     margin: 0;
   }
 
@@ -531,9 +539,9 @@ address {
   /*Tablet styles here*/
 
   /*General Styles*/
-  .content-wrapper {
-    max-width: 640px;
-    margin: 100px 0;
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
 }
 
 h2 {
@@ -732,8 +740,8 @@ footer .copyright {
  
   /*Desktop styles here*/
 
-  .content-wrapper {
-    max-width: 960px;
+.content-wrapper {
+  max-width: 960px;
 }
 
 
